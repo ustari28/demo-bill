@@ -10,7 +10,7 @@ public class EndpointBill {
 
     @RequestMapping(method = RequestMethod.GET, value = "/bill")
     public String bill() {
-        return "Bill";
+        return "Bill 1";
     }
 
     @RequestMapping(method = RequestMethod.GET, value = "/bill/week")

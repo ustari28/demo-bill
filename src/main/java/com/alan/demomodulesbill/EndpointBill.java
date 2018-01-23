@@ -15,6 +15,6 @@ public class EndpointBill {
 
     @RequestMapping(method = RequestMethod.GET, value = "/bill/week")
     public String week() {
-        return "Bill week";
+        return "Bill week 1";
     }
 }
